@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Satellite" android:id="@+id/admin_m1"/>
+    <item android:title="Terrain" android:id="@+id/admin_m2"/>
+    <item android:title="Hybrid" android:id="@+id/admin_m3"/>
+</menu>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AdminActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:text="Welcome Admin"
+        android:textSize="@android:dimen/app_icon_size" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="180dp"
+                android:id="@+id/admin_tno"
+                android:hint="Taxi Number"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="40dp"
+                android:hint="User ID"
+                android:id="@+id/admin_userid"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="40dp"
+                android:hint="Date (yyyy-mm-dd)"
+                android:id="@+id/admin_date"/>
+
+            <Button
+                android:id="@+id/adminbtnsearch"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="120sp"
+                android:layout_marginTop="100dp"
+                android:text="Search"
+                android:textSize="25sp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
